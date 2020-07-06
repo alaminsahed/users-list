@@ -1,0 +1,16 @@
+img{
+    height: 90px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+.allFriend-container{
+    margin-top: 15px;
+    display: flex;
+}
+
+button{
+    width: 80px;
+    background-color: goldenrod;
+    cursor: pointer;
+}
