@@ -13,7 +13,7 @@ const Summary = (props) => {
 
     return (
         <div className="summary-section">
-            <h2>Item Order:{add.length}</h2>
+            <h2>Total Count:{add.length}</h2>
              <p>Total yearly salary:{totalSalary}</p>
         </div>
     );
