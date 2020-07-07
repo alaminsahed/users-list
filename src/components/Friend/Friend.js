@@ -16,7 +16,7 @@ const Friend = (props) => {
             <h2>Name:{name}</h2>
             <h3>Email:{email}</h3>
             <p><small>Yearly Income:{income}</small></p>
-            <button> <FontAwesomeIcon icon={faPlus}/>Add
+            <button onClick={()=>props.handelTotal(props.friends)}> <FontAwesomeIcon icon={faPlus}/>Add
             </button>
             <hr/>
         </div>
